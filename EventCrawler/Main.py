@@ -6,3 +6,6 @@ crawler.Start()'''
 
 '''crawler = TheWallCrawler.TheWallCrawler()
 crawler.Start()'''
+
+crawler = GLTorgCrawler.GLTorgCrawler()
+crawler.Start()

@@ -28,7 +28,7 @@ class MusicEvent(BaseEvent):
 
 class DramaEvent(BaseEvent):
 
-    def __init__(self, site, id, title, start_time, end_time, description, price='', location=''):
+    def __init__(self, site, id, title, start_time, end_time, description, location, price):
         self.Site = site
         self.Id = id
         self.Title = title
